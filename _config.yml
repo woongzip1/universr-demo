@@ -1,9 +1,8 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
-paginate: 1
-baseurl: ""
+title: UniverSR Demo
+tagline: ICASSP 2026
+url: https://woongzip1.github.io
+baseurl: "/universr-demo"
 permalink: pretty
 
 # Gems
@@ -19,23 +18,17 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
+  - Gemfile.bak
+  - Gemfile.lock.bak
   - LICENSE.md
   - README.md
+  - poole-for-jekyll.gemspec
 
 sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
+# Author
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
-
-# Custom vars
-version: 3.0.0
+  name: Woongjib Choi
+  url: https://woongzip1.github.io
